@@ -246,7 +246,7 @@ h4 {
 /* Contact Section */
 
 .contacts {
-    background-image: url("");
+    background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
