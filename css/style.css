@@ -212,3 +212,79 @@ h2 {
 .pizz {
     color: lawngreen;
 }
+
+.click-me,
+button[type=submit],
+.deliver,
+.delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: #ffbf00;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+
+.deliver,
+.delivernot {
+    margin: 10px;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/* Contact Section */
+
+.contacts {
+    background-image: url("../images/sec/b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="email"] {
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: .8em .7em;
+    border-radius: 20px;
+    outline: none !important;
+    font-size: 14px;
+}
+
+.click-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
+.cdata {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.data {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.go {
+    border-radius: 20px;
+}
