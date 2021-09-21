@@ -153,6 +153,59 @@ h2 {
 
 /* Order Section */
 
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+
+#spantext {
+    color: yellow;
+}
+
+.exc {
+    color: yellow;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.h-buttons {
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.h-buttons button {
+    border-radius: 40px;
+    color: black;
+}
+
+.menu-btn {
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #000;
+}
+
+figcaption {
+    font-family: 'Norican', cursive;
+}
+
+*/ .get-pizza {
+    margin-top: 40px;
+}
+
+.contact {
+    padding-top: 20px;
+}
+
 #menu {
     padding-top: 20px;
 }
@@ -293,4 +346,63 @@ input[type="email"] {
 
 .go {
     border-radius: 20px;
+}
+
+
+/** Media Queries start **/
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 1000px;
+        overflow-x: hidden;
+    }
+    #push {
+        padding-top: 40%;
+    }
+    .karibu-txt {
+        margin-top: 50px;
+    }
+    .menu-overlay {
+        width: 100%;
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .karibu-img {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        height: 300px;
+        width: 270px;
+    }
+    .welcome {
+        padding-top: 10px;
+    }
+    .cdata {
+        padding: 10px 5px 10px 5px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 650px;
+    }
+    .piz-pap {
+        font-size: 50px;
+    }
+    ul>.nav-items {
+        display: inline;
+        margin-right: 20px;
+        margin-left: 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #3f51b5 !important;
+    }
 }
