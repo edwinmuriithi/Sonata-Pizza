@@ -53,3 +53,52 @@ p {
     color: black;
     box-shadow: 0 0 10px seashell;
 }
+
+
+/* Home */
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: seashell;
+    background: url('../images/laptop.jpg') no-repeat center center/cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid seashell; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+.headings {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.btn {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid seashell;
+    color: seashell;
+    outline: none;
+    transition: .6s ease;
+    margin-left: 25em;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: seashell;
+    color: black;
+    box-shadow: 0 0 5px seashell, 0 0 10px seashell, 0 0 15px seashell;
+    font-weight: bold;
+}
