@@ -65,7 +65,7 @@ p {
     justify-content: center;
     align-items: center;
     color: seashell;
-    background: url('../images/laptop.jpg') no-repeat center center/cover;
+    background: url('../images/background.jpg') no-repeat center center/cover;
 }
 
 .main {
