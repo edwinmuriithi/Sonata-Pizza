@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sonata-Pizza</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-
-    <!-- CSS only -->
-    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- Material Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
     <!-- Wicked css -->
     <link rel="stylesheet" href="css/wickedcss.min.css">
-    <!-- Animation css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="css/animate.css">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <!-- Custom css -->
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/style.css'>
-
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
+    <!--Custom css file -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -42,8 +41,8 @@
             <h1 class="headings">Sonata-Pizza</h1>
             <a href="#order">
                 <button class="btn">
-                Order Now
-            </button>
+            Order Now
+        </button>
             </a>
         </div>
     </section>
@@ -66,7 +65,6 @@
         </div>
     </section>
 
-    <!-- Order Now -->
     <section id="order">
         <div id="menus"></div>
         <br>
@@ -98,44 +96,44 @@
                     <form class="col-sm-6 offset-sm-3 text-center">
                         <label>Pick your pizza Flavour:</label>
                         <select class="custom-select custom-select-md mb-3 flavour" required>
-                            <option value="vegtikka">Veg Tikka</option>
-                            <option value="chickentikka">Chicken Tikka</option>
-                            <option value="periperi">Peri-Peri Chicken</option>
-                            <option value="bbq">BBQ Steak</option>
-                            <option value="boerewors">Boerewors</option>
-                            <option value="hawaiian">Hawaiian</option>
-                            <option value="mushroom">Chicken and Mushroom</option>
-                            <option value="regina">Regina Pizza</option>
-                        </select>
+                    <option value="vegtikka">Veg Tikka</option>
+                    <option value="chickentikka">Chicken Tikka</option>
+                    <option value="periperi">Peri-Peri Chicken</option>
+                    <option value="bbq">BBQ Steak</option>
+                    <option value="boerewors">Boerewors</option>
+                    <option value="hawaiian">Hawaiian</option>
+                    <option value="mushroom">Chicken and Mushroom</option>
+                    <option value="regina">Regina Pizza</option>
+                </select>
                         <label>Chose your preferred Size:</label>
                         <select class="custom-select custom-select-md mb-3" id="size" required>
-                            <option value="regular">Regular</option>
-                            <option value="medium">Medium</option>
-                            <option value="large">Large</option>
-                        </select>
+                    <option value="regular">Regular</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
                         <label for="crust">Choose your favorite Crust:</label>
                         <select class="custom-select custom-select-md mb-3" id="crust" required>
-                            <option value="thin">Thin Crust @ Ksh. 100</option>
-                            <option value="thick">Thick Crust @ Ksh. 150</option>
-                            <option value="flatbread">FlatBread Crust @ sh. 180</option>
-                            <option value="custom">Custom Crust @ sh. 280</option>
-                        </select>
+                    <option value="thin">Thin Crust @ Ksh. 100</option>
+                    <option value="thick">Thick Crust @ Ksh. 150</option>
+                    <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                    <option value="custom">Custom Crust @ sh. 280</option>
+                </select>
                         <label>Select Your favourite Toppings</label>
                         <select class="custom-select custom-select-md mb-3" id="toppings" required>
-                            <option value="tomato">Tomato @ sh. 80</option>
-                            <option value="onions">Onions @ sh. 80</option>
-                            <option value="mushroom">Mushroom @ sh. 80</option>
-                            <option value="greenpepper">Green Pepper @ sh. 80</option>
-                            <option value=""></option>
-                            <option value="olives">Olives @ sh. 120</option>
-                            <option value="pineapple">Pineapple @ sh. 120</option>
-                            <option value="sweetcorn">Sweet Corn @ sh. 120</option>
-                            <option value="macon">Macon @ sh. 120</option>
-                            <option value="mince">Mince @ sh. 120</option>
-                            <option value=""></option>
-                            <option value="beef">Beef Peperoni @ sh. 170</option>
-                            <option value="chicken">Periperi Chicken @ sh. 170</option>
-                        </select>
+                    <option value="tomato">Tomato @ sh. 80</option>
+                    <option value="onions">Onions @ sh. 80</option>
+                    <option value="mushroom">Mushroom @ sh. 80</option>
+                    <option value="greenpepper">Green Pepper @ sh. 80</option>
+                    <option value=""></option>
+                    <option value="olives">Olives @ sh. 120</option>
+                    <option value="pineapple">Pineapple @ sh. 120</option>
+                    <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                    <option value="macon">Macon @ sh. 120</option>
+                    <option value="mince">Mince @ sh. 120</option>
+                    <option value=""></option>
+                    <option value="beef">Beef Peperoni @ sh. 170</option>
+                    <option value="chicken">Periperi Chicken @ sh. 170</option>
+                </select>
                         <label for="number">Number of Pizza's</label>
                         <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
 
@@ -143,8 +141,8 @@
                     </form>
                     <a href="#summary">
                         <button type="submit" class="btn btn-success checkout" id="checkout">
-                            Checkout
-                        </button>
+                    Checkout
+                </button>
                     </a>
 
                 </div>
@@ -179,7 +177,6 @@
         </div>
     </section>
 
-    <!-- Contact Us Section -->
     <section id="contact">
         <div class="contacts">
             <div class="contact-overlay">
@@ -188,11 +185,11 @@
                     <div class="col-sm-1"></div>
                     <div class="col-sm-5 subs">
                         <h1 class="text-white text-center"> Contact Us </h1>
-                        <p class="text-center">+254712 345 678</p>
+                        <p class="text-center">+254712345678</p>
                         <form>
                             <div class="email-info">
                                 <div class="form-group fill-all-form">
-                                    <input type="email" class="form-control bg-transparent email" id="email12" placeholder="Email" required="">
+                                    <input type="email" class="form-control bg-transparent email" id="email" placeholder="Email" required="">
                                 </div>
                             </div>
                             <div class=" email-info text-center">
@@ -208,13 +205,11 @@
             </div>
         </div>
     </section>
+    <!--End Content-->
 
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.js" integrity="sha512-2rSKyHme2mrplfIGsA8bFYAYddQ66qR+Dh71OrNZsZOtMdCYa8V1lJvl2mr/qzwcMIs20ddYz4JLiBmwS2K7Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src='js/script.js'></script>
 </body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/scrollify.js"></script>
 
 </html>
