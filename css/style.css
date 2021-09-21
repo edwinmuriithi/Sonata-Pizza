@@ -111,7 +111,17 @@ p {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    background-color: rgba(78, 1, 40, 0.842);
+    background-color: rgb(76, 76, 76);
+    text-align: center;
+    color: floralwhite;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 #pic {
@@ -144,7 +154,6 @@ p {
 
 .menu {
     margin-top: 30px;
-    background-image: url("../images/sec/b4.jpg");
     padding: 0;
 }
 
