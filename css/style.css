@@ -10,7 +10,7 @@ html {
 
 p {
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Norican', cursive;
 }
 
 .heading {
@@ -78,7 +78,7 @@ p {
 }
 
 .headings {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Norican', cursive;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
@@ -162,7 +162,7 @@ h2 {
 }
 
 #menu {
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Norican', cursive;
 }
 
 .menu-overlay {
@@ -173,7 +173,7 @@ h2 {
 
 #order-pizza {
     padding: 20px 50px 20px 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Norican', cursive;
 }
 
 .order-overlay {
@@ -201,7 +201,7 @@ h2 {
 .summary,
 .contact {
     color: #000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Norican', cursive;
     margin-top: 30px;
 }
 
@@ -238,12 +238,17 @@ button[type=submit],
 h4 {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Norican', cursive;
     letter-spacing: 1px;
+    color: floralwhite;
 }
 
 
 /* Contact Section */
+
+p {
+    color: floralwhite;
+}
 
 .contacts {
     background-image: url("../images/background.jpg");
