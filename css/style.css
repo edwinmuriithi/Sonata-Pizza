@@ -111,6 +111,7 @@ p {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    background-color: rgba(78, 1, 40, 0.842);
 }
 
 #pic {
