@@ -96,3 +96,42 @@ $(function() {
                                         }
                                         break;
                                 }
+                            case flavour = "boerewors":
+                                switch (size) {
+                                    case size = "regular":
+                                        price = 300;
+                                        if (crust === "thin") {
+                                            totalPrice = (price * number) + 100;
+                                        } else if (crust === "thick") {
+                                            totalPrice = (price * number) + 150;
+                                        } else if (crust === "flatbread") {
+                                            totalPrice = (price * number) + 180;
+                                        } else {
+                                            totalPrice = (price * number) + 280;
+                                        }
+                                        break;
+                                    case size = "medium":
+                                        price = 600;
+                                        if (crust === "thin") {
+                                            totalPrice = (price * number) + 100;
+                                        } else if (crust === "thick") {
+                                            totalPrice = (price * number) + 150;
+                                        } else if (crust === "flatbread") {
+                                            totalPrice = (price * number) + 180;
+                                        } else {
+                                            totalPrice = (price * number) + 280;
+                                        }
+                                        break;
+                                    case size = "large":
+                                        price = 1200;
+                                        if (crust === "thin") {
+                                            totalPrice = (price * number) + 100;
+                                        } else if (crust === "thick") {
+                                            totalPrice = (price * number) + 150;
+                                        } else if (crust === "flatbread") {
+                                            totalPrice = (price * number) + 180;
+                                        } else {
+                                            totalPrice = (price * number) + 280;
+                                        }
+                                        break;
+                                }
