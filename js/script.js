@@ -416,3 +416,22 @@ $(function() {
         });
     });
 });
+
+let size, email;
+size = document.getElementById('#size').value;
+email = document.getElementById('#email').value;
+
+
+let validateInput = () => {
+    if (size === "") {
+        console.log("Please specify the size");
+    } else {
+        alert("Hello " + email + "Thank for reaching out");
+        console.log(email);
+    }
+}
+
+function subscribe() {
+    alert("Hello " + email + "Thank for reaching out");
+    console.log(email);
+}
