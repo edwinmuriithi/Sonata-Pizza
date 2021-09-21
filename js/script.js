@@ -417,13 +417,11 @@ $(function() {
     });
 });
 
-let size, email;
-size = document.getElementById('#size').value;
-email = document.getElementById('#email').value;
+var email = document.getElementById('email12').value;
 
 
-let validateInput = () => {
-    if (size === "") {
+var validateInput = () => {
+    if (email === "") {
         console.log("Please specify the size");
     } else {
         alert("Hello " + email + "Thank for reaching out");
