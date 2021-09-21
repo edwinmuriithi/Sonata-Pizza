@@ -141,3 +141,61 @@ p {
 #menu {
     padding-top: 20px;
 }
+
+.menu {
+    margin-top: 30px;
+    background-image: url("../images/sec/b4.jpg");
+    padding: 0;
+}
+
+#menu {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.menu-overlay {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.order-overlay {
+    height: inherit;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 20px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+
+.order-summary h1,
+.summary,
+.contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px;
+}
+
+#list {
+    color: #000;
+}
+
+.pizz {
+    color: lawngreen;
+}
