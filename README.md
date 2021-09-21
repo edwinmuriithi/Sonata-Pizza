@@ -1,4 +1,4 @@
-# Delani-Studio
+# Sonata-Pizza
 * This is a website for Sonata-Pizza ordering services.
 
 ## Description
