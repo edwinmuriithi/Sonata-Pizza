@@ -71,7 +71,6 @@ p {
 .main {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid seashell; */
     align-items: center;
     position: absolute;
     top: 30%;
@@ -92,7 +91,7 @@ p {
     color: seashell;
     outline: none;
     transition: .6s ease;
-    margin-left: 25em;
+    margin-left: 5em;
 }
 
 .btn:hover {
@@ -101,4 +100,36 @@ p {
     color: black;
     box-shadow: 0 0 5px seashell, 0 0 10px seashell, 0 0 15px seashell;
     font-weight: bold;
+}
+
+
+/* About */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+#pic {
+    display: flex;
+}
+
+#pic img {
+    width: 575px;
+    height: 400px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
