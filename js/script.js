@@ -376,10 +376,7 @@ $(function() {
                 }
                 //Execute order function
                 let newOrder = order(flavour, size, crust, topping, number, totalPrice);
-                console.log(newOrder); // test func
-
-                //create a new object
-                // let myOrder = JSON.stringify(JSON.parse(newOrder));
+                console.log(newOrder); // test function
 
                 //Write to the order
                 $('.summary').slideDown(2000);

@@ -173,7 +173,7 @@ h2 {
 
 #order-pizza {
     padding: 20px 50px 20px 50px;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .order-overlay {
@@ -201,7 +201,7 @@ h2 {
 .summary,
 .contact {
     color: #000;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 30px;
 }
 
